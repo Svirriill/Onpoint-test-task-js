@@ -1,0 +1,14 @@
+.circle__3 {
+    position: absolute;
+    top: 70.5%;
+    left: 47%;
+    width: 8px;
+    height: 8px;
+}
+
+.circle__3::after {
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    top: -8px;
+}

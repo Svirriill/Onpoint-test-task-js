@@ -1,0 +1,22 @@
+/* @import url('_active/range_active.css'); */
+
+.range {
+    -webkit-appearance: none;
+    width: 20%;
+    height: 12px;
+    display: none;
+    outline: none;
+    background: -webkit-linear-gradient(left, #d1eaff 0%, #d1eaff 0%, #435063 0%, #435063 100%);
+    z-index: 4;
+    margin: 0 auto 0 200px;
+    position: relative;
+    top: -90px;
+  }
+  
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 54px;
+    width: 42px;
+    background: url('../../images/cursor.png');
+    cursor: url('../../images/cursorMove.png'), auto;
+  }

@@ -1,0 +1,8 @@
+.thirdSlide {
+    position: relative;
+    left: 0;
+    transition: all, 0s, linear 1s;
+    height: 768px;
+    width: 3072px;
+    display: flex;
+}

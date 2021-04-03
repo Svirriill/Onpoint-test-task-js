@@ -1,0 +1,29 @@
+.commonCircleData {
+    display: block;
+    border: 2px solid #f78b1f;
+    border-radius: 50%;
+    opacity: 0.6;
+    background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #cf1437 1%, #f78b1f 100%);
+}
+
+.commonCircleData::after {
+    content: '';
+    animation: pulse 1s infinite linear;
+    position: absolute;
+    box-sizing: border-box;
+    animation: pulse 1s infinite linear;
+    background-color: #88322a;
+    border: 1px solid #f78b1f;
+    border-radius: 50%;
+    opacity: .4;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

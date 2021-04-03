@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GothamPro';
+    src: local('GothamPro'), url('GothamPro.ttf');
+  }
+  
+  @font-face {
+  font-family: 'GothamProLight';
+  src: local('GothamProLight'), url('GothamProLight.ttf');
+  }

@@ -1,0 +1,14 @@
+.circle__1 {
+    position: absolute;
+    top: 35.5%;
+    left: 56.5%;
+    width: 17px;
+    height: 17px;
+}
+
+.circle__1::after {
+    left: -17px;
+    right: -17px;
+    bottom: -17px;
+    top: -17px;
+}

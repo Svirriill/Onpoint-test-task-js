@@ -1,0 +1,10 @@
+/* @import url('_hide/orange_hide.css'); */
+
+.orange {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background-image: radial-gradient(100% 10% at bottom center, #f78b1f 10%, transparent 100%), radial-gradient(100% 100% at bottom center, #f78b1f 10%, transparent 30%);
+}
