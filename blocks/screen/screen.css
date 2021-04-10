@@ -3,12 +3,13 @@
 @import url('__3/screen__3.css');
 @import url('__4/screen__4.css');
 @import url('__5/screen__5.css');
-
+@import url('__title1/screen__title1.css');
+@import url('__title2/screen__title2.css');
+@import url('__title3/screen__title3.css');
 
 .screen {
     transition: 1s;
     transform: translateY(0);
     min-width: 100%;
-    min-height: 100%;
     height: 100%;
 }

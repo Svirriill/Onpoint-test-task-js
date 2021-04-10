@@ -3,11 +3,11 @@
 /* миксы */
 @import url('blocks/mix/commonScreenData/commonScreenData.css');
 @import url('blocks/mix/commonCircleData/commonCircleData.css');
+@import url('blocks/mix/commonTitleData/commonTitleData.css');
 /* стандартный БЭМ */
 @import url('blocks/main/main.css');
 @import url('blocks/screen/screen.css');
 @import url('blocks/circle/circle.css');
-@import url('blocks/title/title.css');
 @import url('blocks/range/range.css');
 @import url('blocks/button/button.css');
 @import url('blocks/orange/orange.css');
